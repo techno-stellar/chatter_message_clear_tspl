@@ -1,6 +1,6 @@
 {
     # App Information
-    'name': 'Chatter Message Clear TSPL',
+    'name': 'Chatter Message Clear',
     'version': '19.0.1.0.0',
     'license': 'LGPL-3',
     'summary': 'Clear all chatter messages from a record with confirmation',
