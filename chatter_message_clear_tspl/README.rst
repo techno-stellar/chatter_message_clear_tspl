@@ -28,14 +28,8 @@ The module creates a dedicated group:
 - ``Chatter Message Clear``
 
 Only users assigned to this group can clear chatter messages.
-
-In addition to the group check, the module also verifies that the user has
-``write`` access on the current record before deleting any chatter messages.
-
-This means a user must satisfy both conditions:
-
-- belong to the ``Chatter Message Clear`` group
-- have write access on the target record
+The backend method also validates this group membership before deleting any
+messages, so the action is not enforced only at the user interface level.
 
 How It Works
 ------------
