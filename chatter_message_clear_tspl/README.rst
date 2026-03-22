@@ -86,9 +86,9 @@ Files
 Version History
 ---------------
 
-**18.0.1.0.0**
+**19.0.1.0.0**
 
-- Initial Odoo 18 release
+- Initial Odoo 19 release
 - Added chatter trash icon for bulk message deletion
 - Added confirmation dialog before deletion
 - Added group-based access control
