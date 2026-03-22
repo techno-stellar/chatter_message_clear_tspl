@@ -145,8 +145,8 @@
                                         <li class="mb-2">Creates a group named <strong>Chatter Message Clear</strong>
                                         </li>
                                         <li class="mb-2">Shows the trash icon only to users in that group</li>
-                                        <li class="mb-2">Blocks unauthorized backend calls</li>
-                                        <li class="mb-0">Requires delete access on the target document</li>
+                                        <li class="mb-2">Validates group membership again in the backend method</li>
+                                        <li class="mb-0">Prevents unauthorized users from triggering the cleanup action</li>
                                     </ul>
                                 </div>
                             </div>
@@ -217,6 +217,9 @@
                                         </li>
                                         <li class="mb-2">Excludes <code>Attachments &amp; Activities</code> from the
                                             cleanup query
+                                        </li>
+                                        <li class="mb-2">Also excludes <code>Customer Replies</code> from the cleanup
+                                            query
                                         </li>
                                         <li class="mb-2">Acts only on the current document</li>
                                         <li class="mb-0">Refreshes the current chatter after deletion</li>
