@@ -3,7 +3,7 @@
     'name': 'Chatter Message Clear',
     'version': '19.0.1.0.0',
     'license': 'LGPL-3',
-    'summary': 'Clear all chatter messages from a record with confirmation(Delete chatter message, chatter Message Clear clear chatter, remove log note, delete message from chatter, Odoo chatter delete, chatter message delete, delete chatter history, remove chatter message, delete log note, clear record discussion, delete record messages)',
+    'summary': 'Clear all chatter messages from a record with confirmation(Delete chatter message, Chatter Message Clear, clear chatter, Remove log note, Delete message from chatter, Odoo chatter delete, Chatter message delete, Delete chatter history, Remove chatter message, Delete log note, Clear record discussion, Delete record messages, Chatter clear, Chatter cleaner)',
     'description': """
     Chatter Message Clear
     =====================
